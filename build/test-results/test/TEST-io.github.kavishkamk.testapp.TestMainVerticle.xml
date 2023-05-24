@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.kavishkamk.testapp.TestMainVerticle" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-23T18:42:45" hostname="MADHUSHAN" time="0.536">
+  <properties/>
+  <testcase name="verticle_deployed(Vertx, VertxTestContext)" classname="io.github.kavishkamk.testapp.TestMainVerticle" time="0.536"/>
+  <system-out><![CDATA[HTTP server started on port 8888
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
