@@ -2,18 +2,25 @@ package io.github.kavishkamk.testapp.verticle;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Promise;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class VerticleN extends AbstractVerticle {
 
+  private static final Logger Log = LoggerFactory.getLogger(VerticleN.class);
+
   @Override
   public void start(final Promise<Void> startPromise) {
-    System.out.println("Start verticle: " + VerticleN.class.getName() + " in thread: " + Thread.currentThread().getName());
+    Log.debug(
+      "Start verticle: {} in thread: {}, configs: {}", VerticleN.class.getName()
+      , Thread.currentThread().getName(), config().toString()
+    );
     startPromise.complete();
   }
 
   @Override
   public void stop(final Promise<Void> storPromise) {
-    System.out.println("Stop Promise: " + VerticleN.class.getName());
+    Log.debug("Stop Promise: {}", VerticleN.class.getName());
     storPromise.complete();
   }
 
