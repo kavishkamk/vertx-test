@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="io.github.kavishkamk.testapp.PromiseFutureExample" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-21T12:27:18" hostname="MADHUSHAN" time="0.719">
-  <properties/>
-  <testcase name="future_composition(Vertx, VertxTestContext)" classname="io.github.kavishkamk.testapp.PromiseFutureExample" time="0.719"/>
-  <system-out><![CDATA[?[34m17:57:18.813?[m [vert.x-eventloop-thread-0] DEBUG ?[35mio.github.kavishkamk.testapp.PromiseFutureExample?[m - Success
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

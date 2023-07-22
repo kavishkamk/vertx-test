@@ -13,7 +13,7 @@ To launch your tests:
 
 To package your application:
 ```
-./gradlew clean assemble
+
 ```
 
 To run your application:
